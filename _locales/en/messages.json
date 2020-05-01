@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "HTTP/2 Indicator",
+    "message": "HTTP and IP version indicator",
     "description": "Name of the extension."
   },
   "extensionDescription": {
@@ -12,12 +12,16 @@
     "description": "Page action tooltip when only sub-documents are active."
   },
   "pageActionTitle": {
-    "message": "$VERSION$ is active for the top-level document",
+    "message": "$VERSION$ over IPv$IPV$ is in use.",
     "description": "Page action tooltip when the top-level document is active.",
     "placeholders": {
       "version" : {
         "content" : "$1",
         "example" : "HTTP/2"
+      },
+      "ipv": {
+        "content" : "$2",
+        "example" : "6"
       }
     }
   }

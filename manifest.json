@@ -12,7 +12,7 @@
   },
   "applications": {
     "gecko": {
-      "id": "spdyindicator@chengsun.github.com"
+      "id": "httpandipversion@enzzc.github.com"
     }
   },
   "permissions": [
